@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Document verification | Dr Mariam Kashmiri</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%2365b5a6'/%3E%3Ctext x='32' y='41' font-size='26' text-anchor='middle' fill='white' font-family='Arial'%3EMK%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --teal: #4a9c8e; --teal-soft: #e6f3f0;
+    --bg: #f5f8f8; --card: #ffffff; --text: #1d2b2a; --muted: #5d6f6d; --line: #d5e2e0;
+    --ok: #1d7a4a; --ok-bg: #e6f5ec;
+    --bad: #b3261e; --bad-bg: #fcebea;
+    --warn: #8a5a00; --warn-bg: #fdf3dc;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --teal: #6cc2b3; --teal-soft: #1b2f2c;
+      --bg: #0f1a19; --card: #162321; --text: #e5efee; --muted: #9db3b0; --line: #2a3f3c;
+      --ok: #6fd69b; --ok-bg: #12301f;
+      --bad: #ff8d85; --bad-bg: #351615;
+      --warn: #f0c46a; --warn-bg: #33270c;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+  }
+  header.top {
+    background: var(--teal); color: #fff; padding: 20px 16px;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .logo {
+    width: 48px; height: 48px; border-radius: 50%; background: rgba(255,255,255,.22);
+    display: grid; place-items: center; font-weight: 600; letter-spacing: .5px; flex: none;
+  }
+  .brand h1 { margin: 0; font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
+  .brand p { margin: 2px 0 0; font-size: .85rem; opacity: .92; }
+  main { padding: 20px 16px 8px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px; margin-bottom: 16px;
+  }
+  .status { display: flex; gap: 14px; align-items: flex-start; border-radius: 12px; padding: 16px; margin-bottom: 18px; }
+  .status .icon { font-size: 1.6rem; line-height: 1; flex: none; font-weight: 700; }
+  .status h2 { margin: 0 0 2px; font-size: 1.15rem; }
+  .status p { margin: 0; font-size: .95rem; }
+  .s-ok   { background: var(--ok-bg);   color: var(--ok); }
+  .s-bad  { background: var(--bad-bg);  color: var(--bad); }
+  .s-warn { background: var(--warn-bg); color: var(--warn); }
+  dl { margin: 0; }
+  dl div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-top: 1px solid var(--line); }
+  dl div:first-child { border-top: 0; }
+  dt { color: var(--muted); font-size: .9rem; flex: none; }
+  dd { margin: 0; font-weight: 600; text-align: right; word-break: break-word; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92rem; }
+  .check { background: var(--teal-soft); border-radius: 10px; padding: 12px 14px; font-size: .92rem; margin-top: 16px; }
+  .small { font-size: .88rem; color: var(--muted); }
+  h3 { margin: 0 0 8px; font-size: 1rem; }
+  label { display: block; font-size: .9rem; color: var(--muted); margin-bottom: 6px; }
+  .row { display: flex; gap: 8px; }
+  input[type=text] {
+    flex: 1; min-width: 0; font: inherit; padding: 11px 12px; border-radius: 10px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--text);
+    text-transform: uppercase; letter-spacing: .5px;
+  }
+  button {
+    font: inherit; font-weight: 600; padding: 11px 16px; border: 0; border-radius: 10px;
+    background: var(--teal); color: #fff; cursor: pointer;
+  }
+  button:focus-visible, input:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+  a { color: var(--teal); }
+  footer { max-width: 560px; margin: 0 auto; padding: 4px 16px 28px; }
+  .spinner { color: var(--muted); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap brand">
+    <div class="logo" aria-hidden="true">MK</div>
+    <div>
+      <h1 id="issuerName">Dr Mariam Kashmiri</h1>
+      <p>Document verification</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card" id="loading"><span class="spinner">Checking this document&hellip;</span></section>
+
+  <section id="result" hidden>
+    <div class="card">
+      <div class="status" id="statusBox" role="status">
+        <div class="icon" id="statusIcon" aria-hidden="true"></div>
+        <div><h2 id="statusTitle"></h2><p id="statusText"></p></div>
+      </div>
+      <dl id="details"></dl>
+      <div class="check" id="checkNote" hidden></div>
+    </div>
+  </section>
+
+  <section class="card" id="entry">
+    <h3>Check a document</h3>
+    <label for="idInput">Reference number printed on the document</label>
+    <div class="row">
+      <input type="text" id="idInput" placeholder="MK-XXXX-XXXX-XXXX-XXXX" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text">
+      <button type="button" id="goBtn">Verify</button>
+    </div>
+  </section>
+
+  <section class="card" id="contact">
+    <h3>Questions about a document?</h3>
+    <p class="small" style="margin:0 0 8px">If this result does not match the document you hold, or you are unsure, please contact the practice directly using the details below (not any details printed only on the document in question).</p>
+    <div id="contactLines" class="small"></div>
+  </section>
+</main>
+
+<footer class="small">
+  This page confirms that a reference was issued by the practice and has not been withdrawn. It does not replace a clinical or legal check. Always compare the details above with the document in front of you.
+</footer>
+
+<script src="core.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  /* ---- Edit these to change what the page says ---- */
+  var CONFIG = {
+    issuer: "Dr Mariam Kashmiri, Consultant Psychiatrist",
+    contactLines: [
+      "15 Kerry Hill Way, Maidstone, Kent, ME14 2GZ",
+      "Telephone: 07773 379477",
+      "Email: mariamkashmiri@gmail.com"
+    ]
+  };
+  /* ------------------------------------------------- */
+
+  var $ = function (id) { return document.getElementById(id); };
+  var registerPromise = null;
+
+  function loadRegister() {
+    if (!registerPromise) {
+      registerPromise = fetch("register.json", { cache: "no-store" }).then(function (r) {
+        if (!r.ok) throw new Error("register " + r.status);
+        return r.json();
+      });
+    }
+    return registerPromise;
+  }
+
+  function formatDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+    if (!m) return iso || "";
+    var d = new Date(+m[1], +m[2] - 1, +m[3]);
+    return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  }
+
+  function addRow(dl, label, value, mono) {
+    if (value === undefined || value === null || value === "") return;
+    var row = document.createElement("div");
+    var dt = document.createElement("dt"); dt.textContent = label;
+    var dd = document.createElement("dd"); dd.textContent = value;
+    if (mono) dd.className = "mono";
+    row.appendChild(dt); row.appendChild(dd); dl.appendChild(row);
+  }
+
+  function show(kind, title, text, icon) {
+    var box = $("statusBox");
+    box.className = "status " + kind;
+    $("statusIcon").textContent = icon;
+    $("statusTitle").textContent = title;
+    $("statusText").textContent = text;
+    $("loading").hidden = true;
+    $("result").hidden = false;
+  }
+
+  function render(out) {
+    var dl = $("details"); dl.textContent = "";
+    var note = $("checkNote"); note.hidden = true;
+
+    if (out.result === "valid") {
+      show("s-ok", "Genuine document", "This reference was issued by " + CONFIG.issuer + " and is currently valid.", "\u2713");
+      var d = out.details || {};
+      addRow(dl, "Document type", d.type);
+      addRow(dl, "Date of issue", formatDate(d.issued));
+      addRow(dl, "Issued to", d.recipient);
+      addRow(dl, "Note", d.note);
+      addRow(dl, "Reference", out.id, true);
+      addRow(dl, "Issued by", CONFIG.issuer);
+      note.textContent = "Check that the date and details above match the document you are holding. If anything differs, do not rely on the document and contact the practice.";
+      note.hidden = false;
+    } else if (out.result === "revoked") {
+      show("s-bad", "Withdrawn \u2013 do not rely on this document",
+        "The practice has withdrawn this reference" + (out.revokedOn ? " on " + formatDate(out.revokedOn) : "") + ". Please contact the practice.", "\u2715");
+      var r = out.details || {};
+      addRow(dl, "Document type", r.type);
+      addRow(dl, "Date of issue", formatDate(r.issued));
+      addRow(dl, "Reference", out.id, true);
+    } else if (out.result === "not-found") {
+      show("s-warn", "Could not be verified",
+        "No document with this reference was found. Check you have typed it correctly. If the reference came from a QR code, treat the document with caution and contact the practice.", "!");
+      addRow(dl, "Reference checked", out.id, true);
+    } else if (out.result === "unreadable") {
+      show("s-warn", "Could not be verified",
+        "A record exists but could not be read. Please contact the practice before relying on this document.", "!");
+      addRow(dl, "Reference checked", out.id, true);
+    } else {
+      show("s-warn", "Reference not recognised",
+        "That does not look like a valid reference. It should look like MK-XXXX-XXXX-XXXX-XXXX.", "!");
+    }
+  }
+
+  function fail(message) {
+    show("s-warn", "Could not run the check", message, "!");
+    $("details").textContent = "";
+  }
+
+  async function run(raw) {
+    $("result").hidden = true; $("loading").hidden = false;
+    try {
+      if (!MKVerify.normaliseId(raw)) { render({ result: "invalid-format" }); return; }
+      var register = await loadRegister();
+      render(await MKVerify.verify(raw, register));
+    } catch (e) {
+      fail("The verification service could not be reached. Please check your connection and try again, or contact the practice.");
+    }
+  }
+
+  function fromHash() {
+    var h = (location.hash || "").replace(/^#/, "");
+    if (h) { $("idInput").value = h; run(h); }
+    else { $("loading").hidden = true; $("result").hidden = true; }
+  }
+
+  $("issuerName").textContent = CONFIG.issuer.split(",")[0];
+  CONFIG.contactLines.forEach(function (line) {
+    var p = document.createElement("div"); p.textContent = line; $("contactLines").appendChild(p);
+  });
+
+  $("goBtn").addEventListener("click", function () {
+    var v = $("idInput").value;
+    var canon = MKVerify.normaliseId(v);
+    if (canon) history.replaceState(null, "", "#" + MKVerify.displayId(canon));
+    run(v);
+  });
+  $("idInput").addEventListener("keydown", function (e) { if (e.key === "Enter") $("goBtn").click(); });
+  window.addEventListener("hashchange", fromHash);
+  fromHash();
+})();
+</script>
+</body>
+</html>
