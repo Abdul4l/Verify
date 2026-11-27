@@ -1,0 +1,2 @@
+# Verify
+Qr code generator.
